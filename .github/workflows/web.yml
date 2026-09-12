@@ -27,8 +27,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm
-          cache-dependency-path: nadaa39/apps/web/package-lock.json
 
       - name: Install dependencies
         working-directory: nadaa39/apps/web
