@@ -1,0 +1,1 @@
+Put PWA icons and manifest assets here before production publishing.

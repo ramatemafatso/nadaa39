@@ -1,0 +1,11 @@
+{
+  "free_first": true,
+  "providers": [
+    {"name":"gemini","enabled_by":"GEMINI_API_KEY","role":"multimodal_reasoning + live_voice"},
+    {"name":"groq","enabled_by":"GROQ_API_KEY","role":"fast_openai_compatible_fallback"},
+    {"name":"openrouter","enabled_by":"OPENROUTER_API_KEY","role":"free_model_router"},
+    {"name":"local_ecapa","enabled_by":"local","role":"creator_voice_verification"},
+    {"name":"local_docs","enabled_by":"local","role":"pdf_docx_pptx_latex"}
+  ],
+  "future_adapters": ["ollama","lmstudio","local_llama.cpp","huggingface"]
+}

@@ -1,0 +1,9 @@
+node_modules/
+apps/web/dist/
+apps/api/.venv/
+apps/api/data/
+apps/api/.env
+apps/web/.env.local
+*.pyc
+__pycache__/
+.DS_Store
